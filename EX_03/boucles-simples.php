@@ -6,6 +6,7 @@ function compter($maximum)
         $compteur = $compteur +1;
         echo "<p>compteur : $compteur </p>";
     }
+    return;
 }
 compter (10);
 ?>
@@ -17,7 +18,7 @@ function compter_for($maximum)
       echo "+ 1 tour";
       echo "<p>compteur : $compteur</p>" ;
   }
-  
+  return;
 }
 compter_for(10);
 ?>
